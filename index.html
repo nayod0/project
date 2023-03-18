@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #ef9d1b;
+}
+
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#">Smart_home</a></li>
+  <li><a href="#">Smart_camera</a></li>
+  <li><a href="#">smart_light bulb</a></li>
+	
+</ul>
+
+
+<h1>Smart_camera_Page</h1>
+
+<table id="customers">
+  <tr>
+    <th>Pictuer_record</th>
+    <th>Time_Stamp</th>
+    <th>room type</th>
+  </tr>
+  <tr>
+    <td>1.img</td>
+    <td>18-03-2023 13:12:22</td>
+    <td>living room</td>
+  </tr>
+
+</table>
+
+</body>
+</html>
